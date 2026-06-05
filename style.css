@@ -413,6 +413,61 @@ section{position:relative;padding:130px 0}
 .tier-2{background:#EEF0F3;color:#475569;border:1px solid #DDE1E7}
 .tier-3{background:#F1EEE8;color:#8C8A85;border:1px solid #E0DBD2}
 
+/* ===== Infographic: capability stack ===== */
+.stack{position:relative;display:grid;gap:16px}
+.stack::before{content:"";position:absolute;left:28px;top:34px;bottom:34px;width:2px;background:linear-gradient(var(--o),rgba(249,115,22,.12));z-index:0}
+.stack-row{position:relative;display:grid;grid-template-columns:58px 1fr;gap:22px;align-items:center;z-index:1}
+.stack-node{width:58px;height:58px;border-radius:18px;background:var(--grad-o);color:#fff;display:grid;place-items:center;font-family:'Sora',sans-serif;font-weight:800;font-size:20px;box-shadow:var(--sh-o);flex-shrink:0}
+.stack-card{display:flex;align-items:center;gap:20px;background:var(--white);border:1px solid var(--line);border-radius:var(--r-l);padding:20px 26px;transition:transform .3s var(--ease),box-shadow .3s,border-color .3s}
+.dark .stack-card,.coal .stack-card{background:var(--ink-2);border-color:rgba(255,255,255,.08)}
+.stack-card:hover{transform:translateX(8px);border-color:#FFD9B8;box-shadow:var(--sh)}
+.stack-ic{width:46px;height:46px;border-radius:12px;background:var(--grad-o-soft);display:grid;place-items:center;flex-shrink:0}
+.stack-ic svg{width:23px;height:23px;stroke:var(--o-700);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.stack-tx{flex:1;min-width:0}
+.stack-tx h4{font-size:18px;margin-bottom:4px;letter-spacing:-.01em}
+.stack-tx p{font-size:14.5px;color:var(--mut);line-height:1.5}
+.dark .stack-tx p,.coal .stack-tx p{color:#B9B6AF}
+.stack-tag{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;color:var(--soft);white-space:nowrap;text-transform:uppercase;flex-shrink:0}
+
+/* ===== Infographic: markets ===== */
+.markets{display:grid;gap:16px}
+.market{display:grid;grid-template-columns:210px 1fr 168px;gap:24px;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:var(--r-l);padding:24px 28px;transition:transform .3s var(--ease),box-shadow .3s,border-color .3s}
+.dark .market,.coal .market{background:var(--ink-2);border-color:rgba(255,255,255,.08)}
+.market:hover{border-color:#FFD9B8;box-shadow:var(--sh);transform:translateY(-3px)}
+.market-name{font-family:'Sora',sans-serif;font-weight:700;font-size:19px;display:flex;align-items:center;gap:8px;color:var(--ink)}
+.dark .market-name,.coal .market-name{color:#fff}
+.market-name .star{color:var(--o)}
+.market-desc{font-size:14.5px;color:var(--mut)}
+.dark .market-desc,.coal .market-desc{color:#B9B6AF}
+.market-meter{display:flex;flex-direction:column;gap:9px;align-items:flex-start}
+.market-bar{width:100%;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.dark .market-bar,.coal .market-bar{background:rgba(255,255,255,.12)}
+.market-bar span{display:block;height:100%;border-radius:3px;background:var(--grad-o)}
+
+/* ===== Infographic: tier ladder ===== */
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:end}
+.tier-card{position:relative;overflow:hidden;background:var(--white);border:1px solid var(--line);border-radius:var(--r-l);padding:32px 30px;transition:transform .3s var(--ease),box-shadow .3s}
+.tier-card:hover{transform:translateY(-5px);box-shadow:var(--sh-l)}
+.tier-card .bar{position:absolute;left:0;top:0;bottom:0;width:5px}
+.tier-card .tier-n{font-family:'Sora',sans-serif;font-weight:800;font-size:52px;line-height:1;color:var(--line-2)}
+.tier-card h4{font-size:20px;margin:12px 0 10px}
+.tier-card p{font-size:14.5px;color:var(--mut);line-height:1.6}
+.tier-card.lvl1{min-height:300px}.tier-card.lvl1 .bar{background:var(--grad-o)}.tier-card.lvl1 .tier-n{color:var(--o)}
+.tier-card.lvl2{min-height:262px}.tier-card.lvl2 .bar{background:#94A3B8}
+.tier-card.lvl3{min-height:228px}.tier-card.lvl3 .bar{background:#CBD5E1}
+
+@media(max-width:760px){
+  .stack-row{grid-template-columns:46px 1fr;gap:14px}
+  .stack-node{width:46px;height:46px;font-size:16px;border-radius:14px}
+  .stack::before{left:22px}
+  .stack-card{flex-wrap:wrap;padding:18px}
+  .stack-tag{margin-left:0;order:3;width:100%}
+  .market{grid-template-columns:1fr;gap:12px}
+  .market-bar{width:180px}
+  .tiers{grid-template-columns:1fr;align-items:stretch}
+  .tier-card{min-height:0!important}
+}
+
 /* =============================================================
    CTA band
    ============================================================= */
