@@ -1,320 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<meta name="theme-color" content="#F97316" />
-<title>Industries — Solxen Tech</title>
-<meta name="description" content="Six industries served by Solxen Tech." />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="theme-color" content="#F97316"/>
+<title>Industries — SolXen Tech</title>
+<meta name="description" content="Six industries, one engineering discipline: utilities, renewable energy, oil & gas, water & desalination, industrial manufacturing, and critical infrastructure."/>
+<link rel="icon" href="logo.svg" type="image/svg+xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<nav class="nav"><div class="nav-inner">
-    <a href="index.html" class="brand">
-      <div class="brand-mark"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(100,100)">
-<g fill="#F97316">
-<g id="r"><path d="M -4 -52 C -6 -64, -2 -72, 2 -80 C 6 -76, 8 -72, 6 -64 C 7 -58, 5 -54, 4 -52 C 1 -50, -2 -50, -4 -52 Z"/></g>
-<use href="#r" transform="rotate(15)"/><use href="#r" transform="rotate(30)"/><use href="#r" transform="rotate(45)"/>
-<use href="#r" transform="rotate(60)"/><use href="#r" transform="rotate(75)"/><use href="#r" transform="rotate(90)"/>
-<use href="#r" transform="rotate(105)"/><use href="#r" transform="rotate(120)"/><use href="#r" transform="rotate(135)"/>
-<use href="#r" transform="rotate(150)"/><use href="#r" transform="rotate(165)"/><use href="#r" transform="rotate(180)"/>
-<use href="#r" transform="rotate(195)"/><use href="#r" transform="rotate(210)"/><use href="#r" transform="rotate(225)"/>
-<use href="#r" transform="rotate(240)"/><use href="#r" transform="rotate(255)"/><use href="#r" transform="rotate(270)"/>
-<use href="#r" transform="rotate(285)"/><use href="#r" transform="rotate(300)"/><use href="#r" transform="rotate(315)"/>
-<use href="#r" transform="rotate(330)"/><use href="#r" transform="rotate(345)"/>
-</g>
-<circle cx="0" cy="0" r="48" fill="none" stroke="#F97316" stroke-width="0.6" opacity="0.45"/>
-<text x="0" y="14" text-anchor="middle" font-family="Georgia, serif" font-size="58" fill="#FFFFFF">S</text>
-</g></svg></div>
-      <div>SOLXEN<span style="color:#F97316">.</span>TECH<div class="brand-sub">PARTNERS IN RELIABILITY</div></div>
-    </a>
-    <ul class="nav-links">
-      <li class="has-drop"><a href="solutions.html">Solutions</a>
-        <div class="dropdown">
-          <span class="drop-label">11 Service Families</span>
-          <a href="solutions/lifecycle-inspections-diagnostics.html">Life Cycle Inspections <span class="new-badge">NEW</span></a>
-          <a href="solutions/drone-inspections.html">Drone Inspections <span class="new-badge">NEW</span></a>
-          <a href="solutions/asset-risk-management.html">Asset Risk Management <span class="new-badge">NEW</span></a>
-          <a href="solutions/corrosion-prevention.html">Corrosion Prevention <span class="new-badge">NEW</span></a>
-          <a href="solutions/grid-digitalization.html">Grid Digitalization <span class="new-badge">NEW</span></a>
-          <a href="solutions/power-electronics.html">Power Electronics</a>
-          <a href="solutions/industrial-electronics.html">Industrial Electronics</a>
-          <a href="solutions/diagnostics.html">Diagnostics & Reliability</a>
-          <a href="solutions/lifecycle-engineering.html">Lifecycle Engineering</a>
-          <a href="solutions/renewable-bess.html">Renewable & BESS</a>
-          <a href="solutions/utility-services.html">Utility & Industrial</a>
-        </div></li>
-      <li><a href="industries.html" class="active">Industries</a></li>
-      <li><a href="regional.html">Regional</a></li>
-      <li><a href="lifecycle.html">Lifecycle</a></li>
-      <li><a href="technology.html">Technology</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html" class="btn btn-primary">Consultation</a></li>
-    </ul>
-    <button class="menu-toggle" aria-label="Open menu">☰</button>
-  </div></nav>
-  <div class="mobile-menu-backdrop" id="mob-backdrop"></div>
-<aside class="mobile-menu" id="mob-menu">
-  <div class="mobile-menu-header">
-    <a href="index.html" class="brand">
-      <div class="brand-mark"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(100,100)">
-<g fill="#F97316">
-<g id="r"><path d="M -4 -52 C -6 -64, -2 -72, 2 -80 C 6 -76, 8 -72, 6 -64 C 7 -58, 5 -54, 4 -52 C 1 -50, -2 -50, -4 -52 Z"/></g>
-<use href="#r" transform="rotate(15)"/><use href="#r" transform="rotate(30)"/><use href="#r" transform="rotate(45)"/>
-<use href="#r" transform="rotate(60)"/><use href="#r" transform="rotate(75)"/><use href="#r" transform="rotate(90)"/>
-<use href="#r" transform="rotate(105)"/><use href="#r" transform="rotate(120)"/><use href="#r" transform="rotate(135)"/>
-<use href="#r" transform="rotate(150)"/><use href="#r" transform="rotate(165)"/><use href="#r" transform="rotate(180)"/>
-<use href="#r" transform="rotate(195)"/><use href="#r" transform="rotate(210)"/><use href="#r" transform="rotate(225)"/>
-<use href="#r" transform="rotate(240)"/><use href="#r" transform="rotate(255)"/><use href="#r" transform="rotate(270)"/>
-<use href="#r" transform="rotate(285)"/><use href="#r" transform="rotate(300)"/><use href="#r" transform="rotate(315)"/>
-<use href="#r" transform="rotate(330)"/><use href="#r" transform="rotate(345)"/>
-</g>
-<circle cx="0" cy="0" r="48" fill="none" stroke="#F97316" stroke-width="0.6" opacity="0.45"/>
-<text x="0" y="14" text-anchor="middle" font-family="Georgia, serif" font-size="58" fill="#FFFFFF">S</text>
-</g></svg></div>
-      <div>SOLXEN<span style="color:#F97316">.</span>TECH<div class="brand-sub">PARTNERS IN RELIABILITY</div></div>
-    </a>
-    <button class="mobile-menu-close" id="mob-close" aria-label="Close menu">×</button>
-  </div>
-  <div>
-    <span class="mob-label">MAIN</span>
-    <a href="index.html">Home</a>
-    <a href="solutions.html">Solutions</a>
-    <a href="industries.html">Industries</a>
-    <a href="lifecycle.html">Lifecycle</a>
-    <a href="regional.html">Regional</a>
-    <a href="technology.html">Technology</a>
-    <a href="about.html">About</a>
-    <a href="resources.html">Resources</a>
-    <a href="careers.html">Careers</a>
-    <span class="mob-label">SERVICES</span>
-    <a href="solutions/lifecycle-inspections-diagnostics.html">Life Cycle Inspections <span class="new-badge">NEW</span></a>
-    <a href="solutions/drone-inspections.html">Drone Inspections <span class="new-badge">NEW</span></a>
-    <a href="solutions/asset-risk-management.html">Asset Risk Management <span class="new-badge">NEW</span></a>
-    <a href="solutions/corrosion-prevention.html">Corrosion Prevention <span class="new-badge">NEW</span></a>
-    <a href="solutions/grid-digitalization.html">Grid Digitalization <span class="new-badge">NEW</span></a>
-    <a href="solutions/power-electronics.html">Power Electronics</a>
-    <a href="solutions/industrial-electronics.html">Industrial Electronics</a>
-    <a href="solutions/diagnostics.html">Diagnostics & Reliability</a>
-    <a href="solutions/lifecycle-engineering.html">Lifecycle Engineering</a>
-    <a href="solutions/renewable-bess.html">Renewable & BESS</a>
-    <a href="solutions/utility-services.html">Utility & Industrial</a>
-    <a href="contact.html" class="cta">Request Consultation →</a>
-  </div>
-</aside>
+<body data-page="industries">
+<div id="site-nav"></div>
 
-<section class="hero">
-  <div class="container">
-    <span class="eyebrow">INDUSTRIES</span>
-    <h1>Six Industries.<br/><span class="accent">One Engineering Discipline.</span></h1>
-    <p class="lead">Wherever uptime, lifecycle cost, and reliability are measured KPIs.</p>
+<header class="phero">
+  <div class="phero-spark"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDBA74"/><stop offset=".5" stop-color="#F97316"/><stop offset="1" stop-color="#C2410C"/></linearGradient></defs><g transform="translate(100,100)" fill="url(#pg)"><g id="pb"><rect x="-3.2" y="-90" width="6.4" height="30" rx="3.2"/></g><use href="#pb" transform="rotate(40)"/><use href="#pb" transform="rotate(80)"/><use href="#pb" transform="rotate(120)"/><use href="#pb" transform="rotate(160)"/><use href="#pb" transform="rotate(200)"/><use href="#pb" transform="rotate(240)"/><use href="#pb" transform="rotate(280)"/><use href="#pb" transform="rotate(320)"/><path d="M0 -44C5 -16 16 -5 44 0C16 5 5 16 0 44C-5 16 -16 5 -44 0C-16 -5 -5 -16 0 -44Z"/></g></svg></div>
+  <div class="wrap">
+    <div class="kicker" data-reveal>Industries</div>
+    <h1 class="h-display" data-reveal>Six industries. <span class="grad-text">One engineering discipline.</span></h1>
+    <p class="lead" data-reveal style="transition-delay:.08s">Wherever uptime, lifecycle cost, and reliability are measured KPIs — SolXen brings the same instrumented, documented engineering rigor to every asset base.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+
+    <div id="utilities" class="show-row" style="border-top:none">
+      <div class="show-media" data-reveal="left"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=75" alt="Utilities"/><span class="idx">01 / 06</span></div>
+      <div class="show-body" data-reveal="right"><div class="kicker">Sector Focus</div><h2 class="h-lg">Utilities</h2><p class="mut" style="margin-top:8px">T&amp;D operators, substation electronics, and protection &amp; control systems — keeping the grid energized through inspection, diagnostics and lifecycle extension.</p><a href="contact.html" class="txt-link" style="margin-top:22px">Discuss your use case <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div id="renewable" class="show-row flip">
+      <div class="show-media" data-reveal="right"><img src="https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=900&q=75" alt="Renewable energy"/><span class="idx">02 / 06</span></div>
+      <div class="show-body" data-reveal="left"><div class="kicker">Sector Focus</div><h2 class="h-lg">Renewable Energy</h2><p class="mut" style="margin-top:8px">Solar PV, wind, hybrid plants and BESS integrators — inverter, string and PCS diagnostics with balance-of-plant engineering support.</p><a href="contact.html" class="txt-link" style="margin-top:22px">Discuss your use case <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div id="oil-gas" class="show-row">
+      <div class="show-media" data-reveal="left"><img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=900&q=75" alt="Oil and gas"/><span class="idx">03 / 06</span></div>
+      <div class="show-body" data-reveal="right"><div class="kicker">Sector Focus</div><h2 class="h-lg">Oil, Gas &amp; Petrochemicals</h2><p class="mut" style="margin-top:8px">Drives, MCCs, process electronics and brownfield reliability — extending the life of ageing process-critical assets.</p><a href="contact.html" class="txt-link" style="margin-top:22px">Discuss your use case <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div id="water" class="show-row flip">
+      <div class="show-media" data-reveal="right"><img src="https://images.unsplash.com/photo-1574786198875-49f5d09fe2d2?auto=format&fit=crop&w=900&q=75" alt="Water and desalination"/><span class="idx">04 / 06</span></div>
+      <div class="show-body" data-reveal="left"><div class="kicker">Sector Focus</div><h2 class="h-lg">Water &amp; Desalination</h2><p class="mut" style="margin-top:8px">Pumping systems electronics, VFD lifecycle and control-system support for high-availability water infrastructure.</p><a href="contact.html" class="txt-link" style="margin-top:22px">Discuss your use case <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div id="industrial" class="show-row">
+      <div class="show-media" data-reveal="left"><img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=75" alt="Industrial manufacturing"/><span class="idx">05 / 06</span></div>
+      <div class="show-body" data-reveal="right"><div class="kicker">Sector Focus</div><h2 class="h-lg">Industrial Manufacturing</h2><p class="mut" style="margin-top:8px">Process drives, automation hardware and plant-wide reliability — minimizing unplanned downtime across the line.</p><a href="contact.html" class="txt-link" style="margin-top:22px">Discuss your use case <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div id="critical" class="show-row flip">
+      <div class="show-media" data-reveal="right"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=75" alt="Critical infrastructure"/><span class="idx">06 / 06</span></div>
+      <div class="show-body" data-reveal="left"><div class="kicker">Sector Focus</div><h2 class="h-lg">Critical Infrastructure</h2><p class="mut" style="margin-top:8px">Data centers, telecom and transport — UPS, rectifier and power-electronics reliability for systems that can't go dark.</p><a href="contact.html" class="txt-link" style="margin-top:22px">Discuss your use case <span class="arr">&rarr;</span></a></div>
+    </div>
+
   </div>
 </section>
 
-<section class="light" id="utilities">
-  <div class="container">
-    <div class="split">
-      <div class="split-image">
-        <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 40%,rgba(249,115,22,0.4),transparent 50%),linear-gradient(135deg,#1a2540,#0a0f1f);"></div>
-        <div style="position:absolute;bottom:24px;left:24px;right:24px;">
-          <span style="color:var(--orange);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;">01 / 06</span>
-          <h2 style="font-family:Montserrat;font-weight:700;color:white;font-size:26px;margin-top:8px;">Utilities</h2>
-        </div>
-      </div>
-      <div class="split-content">
-        <span class="pre-eyebrow">SECTOR FOCUS</span>
-        <h3>Utilities</h3>
-        <p>T&D operators, substation electronics, protection and control systems.</p>
-        <a href="contact.html" class="more">Discuss your use case →</a>
-      </div>
-    </div>
-  </div>
+<section class="cta">
+  <div class="cta-spark"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><g transform="translate(100,100)" fill="#F97316"><g id="cb"><rect x="-3.2" y="-90" width="6.4" height="30" rx="3.2"/></g><use href="#cb" transform="rotate(45)"/><use href="#cb" transform="rotate(90)"/><use href="#cb" transform="rotate(135)"/><use href="#cb" transform="rotate(180)"/><use href="#cb" transform="rotate(225)"/><use href="#cb" transform="rotate(270)"/><use href="#cb" transform="rotate(315)"/><path d="M0 -44C5 -16 16 -5 44 0C16 5 5 16 0 44C-5 16 -16 5 -44 0C-16 -5 -5 -16 0 -44Z"/></g></svg></div>
+  <div class="wrap"><div class="cta-in" data-reveal>
+    <div><h2 class="h-lg">Want a sector-specific engineering brief?</h2><p>Tell us your sector and asset base. We'll respond with a tailored brief within one business day.</p></div>
+    <a href="contact.html" class="btn btn-primary btn-lg">Request Sector Brief <span class="arr">&rarr;</span></a>
+  </div></div>
 </section>
-<section class="cream" id="renewable">
-  <div class="container">
-    <div class="split reverse">
-      <div class="split-image">
-        <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 40%,rgba(249,115,22,0.4),transparent 50%),linear-gradient(135deg,#1a2540,#0a0f1f);"></div>
-        <div style="position:absolute;bottom:24px;left:24px;right:24px;">
-          <span style="color:var(--orange);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;">02 / 06</span>
-          <h2 style="font-family:Montserrat;font-weight:700;color:white;font-size:26px;margin-top:8px;">Renewable Energy</h2>
-        </div>
-      </div>
-      <div class="split-content">
-        <span class="pre-eyebrow">SECTOR FOCUS</span>
-        <h3>Renewable Energy</h3>
-        <p>Solar PV, wind, hybrid plants, BESS integrators.</p>
-        <a href="contact.html" class="more">Discuss your use case →</a>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="light" id="oil-gas">
-  <div class="container">
-    <div class="split">
-      <div class="split-image">
-        <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 40%,rgba(249,115,22,0.4),transparent 50%),linear-gradient(135deg,#1a2540,#0a0f1f);"></div>
-        <div style="position:absolute;bottom:24px;left:24px;right:24px;">
-          <span style="color:var(--orange);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;">03 / 06</span>
-          <h2 style="font-family:Montserrat;font-weight:700;color:white;font-size:26px;margin-top:8px;">Oil, Gas & Petrochemicals</h2>
-        </div>
-      </div>
-      <div class="split-content">
-        <span class="pre-eyebrow">SECTOR FOCUS</span>
-        <h3>Oil, Gas & Petrochemicals</h3>
-        <p>Drives, MCCs, process electronics, brownfield reliability.</p>
-        <a href="contact.html" class="more">Discuss your use case →</a>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="cream" id="water">
-  <div class="container">
-    <div class="split reverse">
-      <div class="split-image">
-        <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 40%,rgba(249,115,22,0.4),transparent 50%),linear-gradient(135deg,#1a2540,#0a0f1f);"></div>
-        <div style="position:absolute;bottom:24px;left:24px;right:24px;">
-          <span style="color:var(--orange);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;">04 / 06</span>
-          <h2 style="font-family:Montserrat;font-weight:700;color:white;font-size:26px;margin-top:8px;">Water & Desalination</h2>
-        </div>
-      </div>
-      <div class="split-content">
-        <span class="pre-eyebrow">SECTOR FOCUS</span>
-        <h3>Water & Desalination</h3>
-        <p>Pumping systems electronics, VFD lifecycle, control system support.</p>
-        <a href="contact.html" class="more">Discuss your use case →</a>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="light" id="industrial">
-  <div class="container">
-    <div class="split">
-      <div class="split-image">
-        <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 40%,rgba(249,115,22,0.4),transparent 50%),linear-gradient(135deg,#1a2540,#0a0f1f);"></div>
-        <div style="position:absolute;bottom:24px;left:24px;right:24px;">
-          <span style="color:var(--orange);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;">05 / 06</span>
-          <h2 style="font-family:Montserrat;font-weight:700;color:white;font-size:26px;margin-top:8px;">Industrial Manufacturing</h2>
-        </div>
-      </div>
-      <div class="split-content">
-        <span class="pre-eyebrow">SECTOR FOCUS</span>
-        <h3>Industrial Manufacturing</h3>
-        <p>Process drives, automation hardware, plant-wide reliability.</p>
-        <a href="contact.html" class="more">Discuss your use case →</a>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="cream" id="critical">
-  <div class="container">
-    <div class="split reverse">
-      <div class="split-image">
-        <div style="position:absolute;inset:0;background:radial-gradient(circle at 30% 40%,rgba(249,115,22,0.4),transparent 50%),linear-gradient(135deg,#1a2540,#0a0f1f);"></div>
-        <div style="position:absolute;bottom:24px;left:24px;right:24px;">
-          <span style="color:var(--orange);font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;">06 / 06</span>
-          <h2 style="font-family:Montserrat;font-weight:700;color:white;font-size:26px;margin-top:8px;">Critical Infrastructure</h2>
-        </div>
-      </div>
-      <div class="split-content">
-        <span class="pre-eyebrow">SECTOR FOCUS</span>
-        <h3>Critical Infrastructure</h3>
-        <p>Data centers, telecom, transport — UPS, rectifier, power electronics.</p>
-        <a href="contact.html" class="more">Discuss your use case →</a>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="cta-banner">
-  <div class="container">
-    <div class="cta-inner">
-      <div><h2>Sector-specific engineering brief?</h2><p>Tell us your sector and asset base. We'll respond with a tailored brief.</p></div>
-      <div class="cta-actions"><a href="contact.html" class="btn btn-primary">Request Sector Brief</a></div>
-    </div>
-  </div>
-</section>
-<footer><div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="brand">
-          <div class="brand-mark"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(100,100)">
-<g fill="#F97316">
-<g id="r"><path d="M -4 -52 C -6 -64, -2 -72, 2 -80 C 6 -76, 8 -72, 6 -64 C 7 -58, 5 -54, 4 -52 C 1 -50, -2 -50, -4 -52 Z"/></g>
-<use href="#r" transform="rotate(15)"/><use href="#r" transform="rotate(30)"/><use href="#r" transform="rotate(45)"/>
-<use href="#r" transform="rotate(60)"/><use href="#r" transform="rotate(75)"/><use href="#r" transform="rotate(90)"/>
-<use href="#r" transform="rotate(105)"/><use href="#r" transform="rotate(120)"/><use href="#r" transform="rotate(135)"/>
-<use href="#r" transform="rotate(150)"/><use href="#r" transform="rotate(165)"/><use href="#r" transform="rotate(180)"/>
-<use href="#r" transform="rotate(195)"/><use href="#r" transform="rotate(210)"/><use href="#r" transform="rotate(225)"/>
-<use href="#r" transform="rotate(240)"/><use href="#r" transform="rotate(255)"/><use href="#r" transform="rotate(270)"/>
-<use href="#r" transform="rotate(285)"/><use href="#r" transform="rotate(300)"/><use href="#r" transform="rotate(315)"/>
-<use href="#r" transform="rotate(330)"/><use href="#r" transform="rotate(345)"/>
-</g>
-<circle cx="0" cy="0" r="48" fill="none" stroke="#F97316" stroke-width="0.6" opacity="0.45"/>
-<text x="0" y="14" text-anchor="middle" font-family="Georgia, serif" font-size="58" fill="#FFFFFF">S</text>
-</g></svg></div>
-          <div style="color:#fff;">SOLXEN<span style="color:#F97316">.</span>TECH<div class="brand-sub">PARTNERS IN RELIABILITY</div></div>
-        </a>
-        <p style="margin-top:18px;">Localized engineering and industrial lifecycle support for utilities, renewable operators, and industrial infrastructure across the Middle East and Central Asia — backed by Germany-grade engineering depth.</p>
-      </div>
-      <div class="footer-col"><h4>Solutions</h4><ul>
-        <li><a href="solutions/lifecycle-inspections-diagnostics.html">Life Cycle Inspections</a></li>
-        <li><a href="solutions/drone-inspections.html">Drone Inspections</a></li>
-        <li><a href="solutions/asset-risk-management.html">Asset Risk Management</a></li>
-        <li><a href="solutions/corrosion-prevention.html">Corrosion Prevention</a></li>
-        <li><a href="solutions/grid-digitalization.html">Grid Digitalization</a></li>
-        <li><a href="solutions/power-electronics.html">Power Electronics</a></li>
-      </ul></div>
-      <div class="footer-col"><h4>Industries</h4><ul>
-        <li><a href="industries.html#utilities">Utilities</a></li>
-        <li><a href="industries.html#renewable">Renewable Energy</a></li>
-        <li><a href="industries.html#oil-gas">Oil & Gas</a></li>
-        <li><a href="industries.html#water">Water</a></li>
-        <li><a href="industries.html#industrial">Industrial</a></li>
-        <li><a href="industries.html#critical">Critical Infrastructure</a></li>
-      </ul></div>
-      <div class="footer-col"><h4>Company</h4><ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="regional.html">Regional Operations</a></li>
-        <li><a href="technology.html">Technology</a></li>
-        <li><a href="resources.html">Resources & Downloads</a></li>
-        <li><a href="careers.html">Careers</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul></div>
-      <div class="footer-col"><h4>Contact</h4><ul>
-        <li><a href="mailto:info@solxentech.com">info@solxentech.com</a></li>
-        <li><a href="mailto:engineering@solxentech.com">engineering@solxentech.com</a></li>
-        <li>solxentech.com</li>
-        <li>Saudi Arabia (HQ)</li>
-      </ul></div>
-    </div>
-    <div class="footer-bottom">
-      <div>© 2026 Solxen Tech. Partners in Reliability.</div>
-      <div class="legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">LinkedIn</a></div>
-    </div>
-  </div></footer>
 
-<script>
-(function() {
-  const toggle = document.querySelector('.menu-toggle');
-  const menu = document.getElementById('mob-menu');
-  const backdrop = document.getElementById('mob-backdrop');
-  const close = document.getElementById('mob-close');
-  function openMenu() { menu.classList.add('open'); backdrop.classList.add('open'); document.body.style.overflow='hidden'; }
-  function closeMenu() { menu.classList.remove('open'); backdrop.classList.remove('open'); document.body.style.overflow=''; }
-  if (toggle) toggle.addEventListener('click', openMenu);
-  if (close) close.addEventListener('click', closeMenu);
-  if (backdrop) backdrop.addEventListener('click', closeMenu);
-  // Close on link click
-  document.querySelectorAll('.mobile-menu a').forEach(a => a.addEventListener('click', closeMenu));
-})();
-const obs = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { e.target.style.opacity='1'; e.target.style.transform='translateY(0)'; }}), { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-document.querySelectorAll('.card, .industry-card, .app-card, .partner-logo, .split, .lifecycle-step, .timeline-row, .scope-item').forEach(el => { el.style.opacity='0'; el.style.transform='translateY(20px)'; el.style.transition='all 0.6s cubic-bezier(0.4,0,0.2,1)'; obs.observe(el); });
-</script>
-</body></html>
+<div id="site-footer"></div>
+<script src="app.js"></script>
+</body>
+</html>
