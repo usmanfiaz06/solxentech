@@ -1,5 +1,5 @@
 /* ============================================================
-   SOLXEN TECH — shared chrome + interactions
+   SOLXEN TECH, shared chrome + interactions
    ============================================================ */
 (function () {
   "use strict";
@@ -20,7 +20,7 @@
   function brandHTML(forDark) {
     return '<a href="index.html" class="brand">' +
       '<span class="brand-mark spin">' + MARK + '</span>' +
-      '<span class="brand-txt">Sol<span class="x">X</span>en<span class="brand-sub">PARTNERS IN RELIABILITY</span></span>' +
+      '<span class="brand-txt">Sol<span class="x">X</span>en Tech<span class="brand-sub">PARTNERS IN RELIABILITY</span></span>' +
       '</a>';
   }
 
@@ -97,16 +97,16 @@
       '<a href="contact.html" class="btn btn-primary btn-lg">Request Consultation <span class="arr">&rarr;</span></a></div>' +
       '<div class="foot-grid">' +
       '<div class="foot-brand">' + brandHTML() +
-      '<p>Localized engineering and lifecycle support for utilities, renewable operators, and industrial infrastructure across the Middle East and Central Asia — backed by Germany-grade engineering depth via ZOPF Energieanlagen.</p></div>' +
+      '<p>Localized engineering and lifecycle support for utilities, renewable operators, and industrial infrastructure across the Middle East and Central Asia, backed by specialist German engineering depth.</p></div>' +
       footCol("Solutions", [["Life Cycle Inspections","solutions.html#inspections"],["Drone Inspections","solutions.html#drone"],["Asset Risk Management","solutions.html#risk"],["Grid Digitalization","solutions.html#grid"],["Power Electronics","solutions.html#power"],["All 11 Services","solutions.html"]]) +
       footCol("Industries", [["Utilities","industries.html#utilities"],["Renewable Energy","industries.html#renewable"],["Oil & Gas","industries.html#oil-gas"],["Water","industries.html#water"],["Industrial","industries.html#industrial"],["Critical Infra","industries.html#critical"]]) +
       footCol("Company", [["About","about.html"],["Regional Ops","regional.html"],["Technology","technology.html"],["Resources","resources.html"],["Careers","careers.html"],["Contact","contact.html"]]) +
       '<div class="foot-col"><h5>Contact</h5><ul>' +
       '<li><a href="mailto:info@solxentech.com">info@solxentech.com</a></li>' +
       '<li><a href="mailto:engineering@solxentech.com">engineering@solxentech.com</a></li>' +
-      '<li>solxentech.com</li><li>Saudi Arabia (HQ)</li></ul></div>' +
+      '<li>solxentech.com</li><li>Dubai, UAE (HQ)</li></ul></div>' +
       '</div>' +
-      '<div class="foot-bot"><div>&copy; ' + new Date().getFullYear() + ' SolXen Tech — Partners in Reliability.</div>' +
+      '<div class="foot-bot"><div>&copy; ' + new Date().getFullYear() + ' SolXen Tech, Partners in Reliability.</div>' +
       '<div class="legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">LinkedIn</a></div></div>' +
       '</div></footer>';
   }
