@@ -112,7 +112,6 @@
       footCol("Company", [["About","about.html"],["Regional Ops","regional.html"],["Technology","technology.html"],["Resources","resources.html"],["Careers","careers.html"],["Contact","contact.html"]]) +
       '<div class="foot-col"><h5>Contact</h5><ul>' +
       '<li><a href="mailto:info@solxentech.com">info@solxentech.com</a></li>' +
-      '<li><a href="mailto:engineering@solxentech.com">engineering@solxentech.com</a></li>' +
       '<li>solxentech.com</li><li>Dubai, UAE (HQ)</li></ul></div>' +
       '</div>' +
       '<div class="foot-bot"><div>&copy; ' + new Date().getFullYear() + ' SolXen Tech, Partners in Reliability.</div>' +
