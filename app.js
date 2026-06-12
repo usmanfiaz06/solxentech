@@ -6,7 +6,8 @@
 
   function brandHTML(forDark) {
     return '<a href="index.html" class="brand">' +
-      '<img src="logo-original.png" alt="SolXen Tech, Partners in Reliability" class="brand-logo"/>' +
+      '<img src="logo-dark.png" alt="SolXen Tech, Partners in Reliability" class="brand-logo brand-logo--dark"/>' +
+      '<img src="logo-original.png" alt="" aria-hidden="true" class="brand-logo brand-logo--light"/>' +
       '</a>';
   }
 

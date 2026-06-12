@@ -141,6 +141,14 @@ section{position:relative;padding:130px 0}
 .drawer .brand-logo{height:76px}
 .foot-brand .brand-logo{height:104px}
 @media(max-width:600px){.brand-logo{height:48px}}
+/* dark-text logo on light surfaces, light-text logo on dark surfaces */
+.brand-logo--light{display:none}
+.site-nav.on-dark:not(.scrolled) .brand-logo--dark,
+.drawer .brand-logo--dark,
+.foot-brand .brand-logo--dark{display:none}
+.site-nav.on-dark:not(.scrolled) .brand-logo--light,
+.drawer .brand-logo--light,
+.foot-brand .brand-logo--light{display:block}
 .brand-mark{width:42px;height:42px;border-radius:13px;background:var(--ink);
   display:grid;place-items:center;flex-shrink:0;transition:transform .4s var(--ease),background .3s;box-shadow:var(--sh-s)}
 .brand:hover .brand-mark{transform:rotate(12deg)}
