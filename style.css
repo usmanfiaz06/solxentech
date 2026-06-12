@@ -135,12 +135,12 @@ section{position:relative;padding:130px 0}
 .nav-in>*{position:relative;z-index:1}
 
 .brand{display:flex;align-items:center;gap:13px}
-.brand-logo{height:58px;width:auto;display:block;transition:transform .4s var(--ease)}
+.brand-logo{height:76px;width:auto;display:block;transition:transform .4s var(--ease)}
 .brand:hover .brand-logo{transform:scale(1.04)}
-.site-nav.scrolled .brand-logo{height:48px}
-.drawer .brand-logo{height:76px}
+.site-nav.scrolled .brand-logo{height:62px}
+.drawer .brand-logo{height:80px}
 .foot-brand .brand-logo{height:104px}
-@media(max-width:600px){.brand-logo{height:48px}}
+@media(max-width:600px){.brand-logo{height:56px}}
 /* dark-text logo on light surfaces, light-text logo on dark surfaces */
 .brand-logo--light{display:none}
 .site-nav.on-dark:not(.scrolled) .brand-logo--dark,
