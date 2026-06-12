@@ -4,23 +4,9 @@
 (function () {
   "use strict";
 
-  /* ---- brand mark (spark + blades) ---- */
-  var MARK =
-    '<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
-    '<defs><linearGradient id="sxg" x1="0" y1="0" x2="1" y2="1">' +
-    '<stop offset="0" stop-color="#FDBA74"/><stop offset=".45" stop-color="#F97316"/><stop offset="1" stop-color="#C2410C"/>' +
-    '</linearGradient></defs><g transform="translate(100,100)" fill="url(#sxg)">' +
-    '<g id="bl"><rect x="-3.2" y="-90" width="6.4" height="30" rx="3.2"/></g>' +
-    [30,60,90,120,150,180,210,240,270,300,330].map(function(r){return '<use href="#bl" transform="rotate('+r+')"/>';}).join('') +
-    '<g id="bs"><rect x="-2.6" y="-82" width="5.2" height="18" rx="2.6"/></g>' +
-    [15,45,75,105,135,165,195,225,255,285,315,345].map(function(r){return '<use href="#bs" transform="rotate('+r+')"/>';}).join('') +
-    '<path d="M0 -44C5 -16 16 -5 44 0C16 5 5 16 0 44C-5 16 -16 5 -44 0C-16 -5 -5 -16 0 -44Z"/>' +
-    '</g></svg>';
-
   function brandHTML(forDark) {
     return '<a href="index.html" class="brand">' +
-      '<span class="brand-mark spin">' + MARK + '</span>' +
-      '<span class="brand-txt">Sol<span class="x">X</span>en Tech<span class="brand-sub">PARTNERS IN RELIABILITY</span></span>' +
+      '<img src="logo-original.png" alt="SolXen Tech, Partners in Reliability" class="brand-logo"/>' +
       '</a>';
   }
 
